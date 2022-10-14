@@ -1,0 +1,73 @@
+.conteudo{
+    margin-top: -5px;
+}
+.conteudo .listas .logorobo img{
+    height: 40px;
+}
+.conteudo .listas .logorobocup img{
+    width: 60px;
+    height: 40px;
+}
+.conteudo .listas .logo5mt img{
+    width: 50px;
+    height: 27px;
+}
+.conteudo .listas .as{
+    font-size: 15px;
+}
+.conteudo .listas .logorobocup{
+    margin-right: 5px;
+}
+
+
+.introducao .gbox .boxp.box1{
+    margin-top: -49px;
+    height: 250px;
+}
+
+.introducao .gbox .boxp.box1 p{
+    font-size: 14px;
+    width: 100%;
+}
+.introducao .gbox .boxp.box2{
+    font-size: 14px;
+    width: 75%;
+}
+
+.introducao .gbox .boximg img{
+    width: 140px;
+    height: 160px;
+
+}
+
+
+
+
+.contato .conteudo .titulo h1{
+    font-size: 17px;
+}
+.contato .conteudo form .grupo .campo1 label,.campo2 label,.campo3 label{
+
+    font-size: 14px;
+}
+.contato .conteudo form .grupo .campo1 input,.campo2 input{
+    width: 75%;
+    font-size: 13px;
+}
+
+
+footer .rodape2 img{
+    width: 40px;
+    height: 40px;
+}
+footer .rodape2 .ltt{
+    width: 50px;
+}
+footer .rodape2 .lyt{
+    width: 50px;
+}
+
+
+.conteudo .sublistas {
+    margin-top: -5px;
+}

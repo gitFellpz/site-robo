@@ -1,0 +1,97 @@
+.boxesnext{
+    display: none;
+}
+.boxesrbc{
+    display: none;
+}
+
+.box1,.box2,.box3{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    
+ 
+}
+.boxesrbc .box1 p,.boxesrbc .box2 p,.boxesrbc .box3 p,
+.boxesnext .box1 p,.boxesnext .box2 p,.boxesnext .box3 p
+{
+    width: 60%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    color: black;
+    padding: 20px;
+    font-family:'Kanit', sans-serif;
+}
+.boxesrbc .box2 p,.boxesrbc .box3 p{
+    margin-top: -30px;
+}
+.nexterbc .select{
+    text-align: center;
+    margin-top: 50px;
+}
+.nexterbc .select button{
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    background-color: #003AB8;
+    border: 0px solid black;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+.nexterbc .select button:active{
+    transform: translateY(5px);
+}
+.nexterbc .select button p{
+    margin-top: 6px;
+}
+
+.nexterbc .select .btn1{
+    margin-right: 40px;
+}
+.nexterbc .select .btn2{
+    margin-left: 40px;
+}
+
+.nexterbc .select button:hover{
+    background-color: #0070FF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.selecionado{
+    display: block;
+}
+.nexterbc .select .selecionado2{
+    background-color: #0070FF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.nexterbc .boxesnext .box2, .boxesnext .box3{
+    margin-top: -16px;
+}
+.nexterbc .select .selecionado2:hover{
+    background-color: #0096FF;
+}
+.nexterbc .boxesnext .box4,
+.nexterbc .boxesrbc .box4{
+    text-align: center;
+}
+.nexterbc .boxesnext .box4 .boxVideo1,.boxVideo2,
+.nexterbc .boxesrbc .box4 .boxVideo1,.boxVideo2
+{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nexterbc .boxesrbc .box1 p,
+.nexterbc .boxesnext .box1 p{
+    border-radius: 20px 20px 0px 0px;
+}
+.nexterbc .boxesrbc .box3 p,
+.nexterbc .boxesnext .box3 p{
+    border-radius: 0px 0px 20px 20px;
+}

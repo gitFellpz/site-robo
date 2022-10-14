@@ -1,0 +1,66 @@
+nav{
+    height: 60px;
+}
+.conteudo .listas .logorobocup,
+.conteudo .listas .logorobo,
+.conteudo .listas .logo5mt{
+    display: none;
+}
+.listas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+.robocup{
+    margin-left: 20px;
+}
+.robo{
+    margin-left: 30px;
+}
+
+.hardware .imgComponentes {
+    gap: 50px;
+    height: 250px;
+}
+.hardware .imgComponentes .lista{
+    position: absolute;
+}
+.hardware .imgComponentes .btnSeta{
+    position: relative;
+    top: 210px;
+}
+
+
+
+
+
+.construRobo .boxinter{
+    gap: 50px;
+    height: 180px;
+}
+.construRobo .boxinter .videosConstru{
+    position: absolute;
+}
+.construRobo .boxinter button{
+    position: relative;
+    left: 0px;
+    top: 150px;
+}
+
+
+
+
+#loc5{
+    margin-top: 20px;
+}
+
+.conteudo .sublistas {
+    margin-top: -5px;
+}
+.robo:hover .aux {
+    width: 180px;
+}
+.sublistas .aux li a {
+    font-size: 13px;
+}

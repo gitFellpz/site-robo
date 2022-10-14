@@ -1,0 +1,905 @@
+
+/*---GERAL---*/
+body{
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*---NAVEGACAO---*/
+nav{
+    background-color: #003AB8;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-radius: 0px 0px 70px 70px;
+    height: 70px;
+    
+}
+.conteudo{
+    margin-top: -9px;
+}
+.listas{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 50px;
+
+}
+.l{
+    margin-right: 2%;
+    margin-left: 10px;
+    list-style: none;
+
+}
+.sublistas{
+    list-style: none;
+    padding: 3px;
+    padding-top: 5px;
+    display: none;
+    margin-top: 11px;
+    position: fixed;
+}
+
+.sublistas .aux li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.sublistas .aux li{
+    margin-bottom: 10px;
+
+}
+.sublistas .aux .lif{
+    margin-bottom: -5px;
+}
+.sublistas .aux .lii{
+    margin-top: -5px;
+}
+
+.as{
+    color: white;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    transition: all 300ms ease-out;
+    
+}
+.as:hover{
+    background-color: white;
+    transition: all 400ms ease-out;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    
+}
+.as1:hover{
+    border-radius: 15px 15px 15px 0px;
+    
+}
+.robo:hover .sublistas{
+    display: block;
+
+}
+.robo:hover .aux{
+    background-color: white;
+    border: 2px solid black;
+    padding: 14px;
+    margin-left: -3px;
+    border-radius: 0px 15px 15px 15px;
+}
+.logoinicial img{
+    width: 40px;
+    height: 40px;
+}
+.sublistas .aux li:hover{
+    background-color: #003AB8;
+    transition: 400ms;
+    border-radius: 10px;
+}
+.sublistas .aux li:hover a{
+    color: white;
+}
+
+
+
+
+/*---Introdução---*/
+.introducao{
+    background-color: black;
+    height: 96vh;
+    display: flex;
+    align-items: center;
+}
+.introducao .gbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.introducao .gbox .boxp.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: #0036BF;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-left: -109px;
+}
+.introducao .gbox .boxp.box1 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+    z-index: 5;
+}
+.introducao .gbox .boxp.box1 p{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    margin-right: 35px;
+    margin-left: 20px;
+    text-align: center;
+    z-index: 3;
+    width: 70%;
+    margin-top: -1vh;
+}
+.introducao .gbox img{
+    position: relative;
+    width: 250px;
+    height: 280px;
+    margin-top: 30px;
+    margin-right: 40px;
+    z-index: 2;
+}
+.introducao .gbox .boxp.box2{
+    width: 35%;
+    align-items: center;
+}
+.introducao .gbox .box2 p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.setinha{
+    margin-top: -13vh;
+    text-align: center;
+}
+.setinha img{
+    width: 90px;
+    height: 90px;
+    transform: rotateZ(90deg);
+    
+}
+.setinha img:hover{  
+    transition: 1s;  
+    margin-top: 10px;
+    margin-bottom: -10px;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+/*---LOCALIZACAO DA PAGINA---*/
+.localizacao{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.localizacao h1{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #BD0000;
+    height: 4px;
+    text-align: center;
+}
+
+
+/*---APRESENTACAO ROBO---*/
+
+
+/*---SECAO DE IMAGENS---*/
+.apresenRobo .slider{
+    padding: 0;
+    margin: 0;
+}
+.apresenRobo .slider {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 300px;
+    margin: auto;
+
+}
+.apresenRobo .slider li {
+    list-style: none;
+    position: absolute;
+}
+.apresenRobo .slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.apresenRobo .slider input {
+    display: none;
+}
+.apresenRobo .slider label {
+    background-color: #003AB8;
+    bottom: 20px;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.apresenRobo .slider li:nth-child(1) label {
+    left: 80px;
+}
+.apresenRobo .slider li:nth-child(2) label {
+    left: 110px;
+}
+.apresenRobo .slider li:nth-child(3) label {
+    left: 140px;
+}
+.apresenRobo .slider li:nth-child(4) label {
+    left: 170px;
+}
+.apresenRobo .slider li:nth-child(5) label {
+    left: 200px;
+}
+.apresenRobo .slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+.apresenRobo .slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    transition: 400ms;
+    transition: inherit 700ms;
+}
+.apresenRobo .slider li input:checked ~ label{
+    background-color: white;
+    
+}
+.apresenRobo .boximgs .slider li img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.apresenRobo{
+    margin-top: 40px;
+}
+.apresenRobo .cont{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 60px;
+
+}
+.apresenRobo .boxers12 {
+    width: 360px;
+
+}
+.apresenRobo .boxers12 .boxp{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+} 
+.apresenRobo .boxers12 .box2{
+    margin-top: 50px;
+}
+.apresenRobo .boxers12 p{
+    background-color: #B5B4B8;
+    margin: 0;
+    padding: 10px;
+    color: black;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+
+/*---HARDWARE---*/
+
+.hardware .boxp{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.hardware .boxp p{
+    width: 45%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+.hardware .boxp .p2{
+    margin-top: -40px;
+}
+
+
+    /*ESTILIZACAO PRINCIPAL*/
+.hardware .imgComponentes{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.hardware .imgComponentes .lista{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+.hardware .imgComponentes ul li .txt p{
+    font-size: 1em;
+    font-family:'Kanit', sans-serif;
+}
+.hardware .imgComponentes ul li .boximg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.hardware .btnSeta{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 0px 9px 1px;
+}
+.hardware .btnSeta:hover{
+    background-color: #BD0000;
+}
+.hardware .btnVoltar.btnVoltar{
+    transform: rotate(180deg);
+}
+.hardware .btnSeta:active{
+    height: 59px;
+    width: 59px;
+}
+.hardware .btnAvancar:active{
+    margin-right: 1px;
+}
+.hardware .btnVoltar:active{
+    margin-right: 1px;
+}
+.hardware .imgComponentes .componente{
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.hardware .imgComponentes .componente.selecionado{
+    opacity: 1;
+    z-index: 1;
+}
+.boximg.cled{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+/*SECAO CONSTRUÇÃO ROBO VIDEOS*/
+.construRobo .boxp{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.construRobo .boxp p{
+    width: 45%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+.construRobo .boxp.p2{
+    margin-top: -10px;
+}.construRobo .boxp.p3{
+    margin-top: -10px;
+}
+
+
+    /*ESTILIZACAO PRINCIPAL*/
+.construRobo .boxinter{
+    margin-top: 38px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.construRobo .videosConstru .lista{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+.construRobo .videosConstru .lista li .boxvideo video{
+    width: 600px;
+    border-radius: 40px;
+
+}
+.construRobo .btnSeta{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 0px 9px 1px;
+}
+.construRobo .btnSeta:hover{
+    background-color: #BD0000;
+}
+.construRobo .btnVoltar.btnVoltar{
+    transform: rotate(180deg);
+}
+.construRobo .btnVoltar:active,.btnAvancar:active{
+    height: 59px;
+    width: 59px;
+}
+.construRobo .btnAvancar:active{
+    margin-right: 1px;
+}
+.construRobo .btnVoltar:active:active{
+    margin-left: 1px;
+}
+.construRobo .video{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.construRobo .video .boxvideo{
+    width: 100%;
+    height: 100%;
+}
+.construRobo .video .boxvideo iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.construRobo .boxinter .btnAvancar img{
+    margin-top: 4px;
+}
+
+.construRobo .boxinter .video.selecionado2{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+
+/*Sistemas de armas*/
+.sistArma .boxesp{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.sistArma .boxesp p{
+    width: 20%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    color: black;
+    padding: 20px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+}
+
+
+
+/*SECAO 5MT - Quem somos*/
+.apresenGrupo .boxp{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.apresenGrupo .boxp p{
+    width: 60%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+.apresenGrupo .boxp.p2{
+    margin-top: -10px;
+}
+
+
+
+/*ESTILIZAÇÃO DE NEGOCIO*/
+.negocio{
+    text-align: center;
+}
+.negocio .boxp{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    
+}
+.negocio .boxp p{
+    width: 45%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+.negocio button{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    background-color: #003AB8;
+    border: 0px solid black;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+.negocio button:active{
+    transform: translateY(5px);
+}
+.negocio button:hover{
+    background-color: #0070FF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.negocio .boxbtn img{
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+}
+.negocio .boxbtn .boxp2{
+    text-align: center;
+    height: 300px;
+}
+.negocio .boxbtn{
+    display: none;
+}
+.negocio .boxbtn.selecionado3{
+    display: block;
+}
+
+
+
+/*ESTILIZACAO DE CONTATO*/
+.contato{
+    margin-top: 35px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.contato .conteudo{
+    background-color: #005AE0;
+    border: 2px solid black;
+    width: 500px;
+}
+.contato .conteudo h1{
+    background-color: #005AE0;
+    font-size: 25px;
+}
+.contato .conteudo form{
+    background-color: white;
+}
+.contato .conteudo form .grupo{
+    border: none;
+}
+.contato .conteudo form .grupo .campo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato .conteudo form .grupo .campo1{
+    padding-top: 10px;
+    margin-top: 5px;
+    
+}
+.contato .conteudo form .grupo .campo2{
+    margin-top: 10px;
+}
+.contato .conteudo form .grupo .campo3{
+    margin-top: -10px;
+}
+.contato .conteudo form .grupo .campo1 label,.campo2 label,.campo3 label{
+
+    font-size: 17px;
+}
+.contato .conteudo form .grupo .campo1 input,.campo2 input{
+    width: 40%;
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+}
+.contato .conteudo form .grupo .campo3 textarea{
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+    width: 20em;
+}
+.contato .conteudo form .grupo .campo1 .ast,.campo2 .ast,.campo3 .ast{
+    float: right;
+    color: #BD0000;
+    margin-left: 2px;
+}
+
+.contato .conteudo form .grupo .campo .btnContato{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: #005AE0;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+.contato .conteudo form .grupo .campo .btnContato:hover{
+    background-color: #0070FF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.contato .conteudo form .grupo .campo .btnContato:active{
+    transform: translateY(5px);
+}
+
+
+
+
+
+/*ESTILIZACAO DO RODAPE*/
+footer{
+    margin-top: -100px;
+    background-color: #0036BF;
+}
+footer .rodape2{
+    padding-top: 30px;
+}
+footer .rodape{
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+footer .rodape .btnScroll {
+    text-align: center;
+
+}
+footer .rodape .btnScroll a{
+    background-color: white;
+    font-family:'Kanit', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    transition: background-color 0.2s ease-in-out;
+}
+footer .rodape .btnScroll a:hover{
+    background-color: #CCCCCC;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+footer .rodape .btnScroll:active{
+    transform: translateY(5px);
+}
+footer .rodape2 img{
+    width: 60px;
+    height: 60px;
+}
+footer .rodape2 .ltt{
+    width: 70px;
+}
+footer .rodape2 .lyt{
+    width: 70px;
+}
+footer .rodape2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 20%;
+}
+
+
+
+#loc2{
+    background-color: #0036BF;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+#loc3{
+    height: 5px;
+    margin-bottom: 70px;
+}
+#loc41{
+    height: 5px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+#loc42{
+    height: 5px;
+}
+#loc5{
+    height: 5px;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+#loc6{
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+#loc7{
+    height: 5px;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+#loc8{
+    height: 5px;
+    margin-top: -60px;
+    margin-bottom: 70px
+}
+#loc9{
+    height: 5px;
+    margin-top: 0px;
+    margin-bottom: 70px
+}
+
+.negocio .boxbtn img{
+    width: 250px;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+.socio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socio .boxp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    
+}
+.socio .boxp p{
+    width: 60%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+.socio button{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    background-color: #003AB8;
+    border: 0px solid black;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+.socio button a{
+    text-decoration: none;
+    color: white;
+}
+.socio button:active{
+    transform: translateY(5px);
+}
+.socio button:hover{
+    background-color: #0070FF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.nos ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+
+}
+.nos:hover ul{
+    display: block;
+    height: 50px;
+    margin-top: 15px;
+    
+}
+.nos ul li{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    margin-top: 10px;
+}
+.nos ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:'Kanit', sans-serif;
+}
+.nos ul li a:hover{
+    background-color: #0036BF;
+    color: white;
+    border-radius: 15px;
+    transition: all 300ms ease-out;
+}
+.as3:hover{
+    border-radius: 15px 15px 15px 0px;
+}

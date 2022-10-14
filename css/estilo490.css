@@ -1,0 +1,97 @@
+.conteudo .listas .as{
+    font-size: 14px;
+}
+.conteudo .listas .logorobo img{
+    width: 35px;
+    height: 35px;
+}
+.conteudo .listas .logorobocup img {
+    width: 55px;
+    height: 35px;
+}
+.conteudo .listas .logo5mt img{
+    width: 45px;
+    height: 22px;
+}
+.conteudo{
+    margin-top: 0px;
+}
+
+
+.introducao .gbox .boxp.box1{
+    width: 85%;
+}
+.introducao .gbox .boxp.box1 p{
+    margin-top: -15px;
+    font-size: 13px;
+}
+.introducao .gbox .boxp.box2 p{
+    font-size: 13px;
+}
+
+
+#loc3{
+    margin-top: 260px;
+}
+.hardware .boxp p,
+.construRobo .boxp p,
+.sistArma .boxesp p{
+    width: 85%;
+}
+
+
+.construRobo .boxinter .videosConstru .lista{
+    width: 250px;
+    height: 200px;
+}
+.construRobo .videosConstru .lista .video .boxvideo video{
+    width: 250px;
+    height: 200px;
+}
+.construRobo .btnSeta{
+    margin-top: -35px;
+}
+.construRobo .boxinter {
+    gap: 10px;
+}
+
+
+#loc5{
+    margin-top: -70px;
+}
+.sistArma .boxesp{
+    flex-direction: column;
+    align-items: center;
+}
+.sistArma .boxesp {
+    gap: 0px;
+}
+
+
+.nexterbc .select button p {
+    margin-top: 9px;
+}
+.boxesrbc .box1 p, 
+.boxesrbc .box2 p, 
+.boxesrbc .box3 p, 
+.boxesnext .box1 p, 
+.boxesnext .box2 p, 
+.boxesnext .box3 p {
+    width: 75%;
+}
+
+.nexterbc .boxesrbc .box4 .boxVideo1, .nexterbc .boxesnext .box4 .boxVideo2 {
+    margin-top: 20px;
+    width: 260px;
+    height: 180px;
+}
+
+.apresenGrupo .boxp p{
+    width: 70%;
+}
+.conteudo .sublistas {
+    margin-top: -5px;
+}
+
+
+

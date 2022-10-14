@@ -1,0 +1,208 @@
+body{
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*---NAVEGACAO---*/
+nav{
+    background-color: #003AB8;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-radius: 0px 0px 70px 70px;
+    height: 70px;
+    margin-top: -100px;
+    
+}
+.listas{
+    margin-top: 22px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.l{
+    margin-right: 2%;
+    margin-left: 10px;
+    list-style: none;
+
+}
+.as{
+    color: white;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    transition: all 300ms ease-out;
+    border-radius: 15px;
+    
+}
+.as:hover{
+    background-color: white;
+    transition: all 400ms ease-out;
+    padding: 8px;
+    border-radius: 15px;
+    color: black;
+    
+}
+
+
+.localizacao{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.localizacao h1{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #BD0000;
+    height: 4px;
+    text-align: center;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .boxp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+
+}
+main .boxp p{
+    width: 60%;
+    text-align: center;   
+    background-color: #B5B4B8;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+main .boxp img{
+    width: 430px;
+    margin: 20px;
+}
+main .boxp.op img{
+    width: 200px;
+}
+main .boxp.ret img{
+    width: 200px;
+}
+main .boxp.rec img{
+    width: 200px;
+}
+main .boxp.merc img{
+    width: 200px;
+}
+main h2, h3{
+    font-family:'Kanit', sans-serif;
+}
+
+button{
+    background-color: white;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+a{
+    font-size: 16px;
+    font-family:'Kanit', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: white;
+    transition: background-color 0.2s ease-in-out;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #003AB8;
+}
+a:active{
+    transform: translateY(5px);
+}
+a:hover{
+    background-color: #0070FF;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+footer{
+    margin-top: -100px;
+    background-color: #0036BF;
+}
+footer .rodape2{
+    padding-top: 30px;
+}
+footer .rodape{
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+footer .rodape .btnScroll {
+    text-align: center;
+
+}
+footer .rodape .btnScroll a{
+    background-color: white;
+    font-family:'Kanit', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    transition: background-color 0.2s ease-in-out;
+}
+footer .rodape .btnScroll a:hover{
+    background-color: #CCCCCC;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+footer .rodape .btnScroll:active{
+    transform: translateY(5px);
+}
+footer .rodape2 img{
+    width: 60px;
+    height: 60px;
+}
+footer .rodape2 .ltt{
+    width: 70px;
+}
+footer .rodape2 .lyt{
+    width: 70px;
+}
+footer .rodape2{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    gap: 20%;
+}
+
+#loc1{
+    margin-top: -100px;
+    margin-bottom: 80px;
+    background-color: #0036BF;
+    height: 5px;
+}
+#loc2{
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+#loc3{
+    height: 5px;
+    margin-bottom: 70px;
+}
+#loc4{
+    height: 5px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}

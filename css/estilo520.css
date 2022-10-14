@@ -1,0 +1,57 @@
+.introducao .gbox .boxp.box2{
+    margin-top: 2vh;
+}
+
+
+.hardware .boxp p{
+    font-size: 14px;
+}
+.hardware .imgComponentes{
+    gap: 20px;
+}
+.hardware .imgComponentes .lista{
+    width: 250px;
+    height: 250px;
+}
+.hardware .imgComponentes .lista .boximg img{
+    width: 250px;
+    height: 250px;
+}
+
+.construRobo .boxp p{
+    font-size: 14px;
+}
+.construRobo .boxinter .videosConstru .lista{
+    width: 300px;
+}
+.construRobo .videosConstru .lista .video .boxvideo video{
+    width: 300px;
+}
+.construRobo .btnSeta{
+    margin-top: -30px;
+}
+
+.sistArma .boxesp p,
+.nexterbc p,
+.apresenGrupo .boxp p,
+.negocio .boxp p
+{
+    font-size: 14px;
+}
+
+.contato .titulo h1{
+    font-size: 20px;
+}
+
+.contato .conteudo{
+    width: 100%;
+}
+
+#loc5{
+    margin-top: -90px;
+}
+
+.conteudo .sublistas {
+    margin-top: -5px;
+}
+

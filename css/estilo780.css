@@ -1,0 +1,83 @@
+.as{
+    color: white;
+    padding: 7px;
+}
+.as:hover{
+    background-color: white;
+    transition: all 400ms ease-out;
+    padding: 7px;
+    border-radius: 15px;
+    color: black;
+}
+
+
+
+.introducao .gbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.introducao .gbox .boximg{
+    display: flex;
+
+}
+.introducao .gbox img{
+    margin-left: 40px;
+    transform: rotateZ(90deg);
+
+}
+.introducao .gbox .boxp.box1{
+    margin-top: -61px;
+    margin-left: 0px;
+    width: 50%;
+}
+.introducao .gbox .boxp.box2{
+    width: 500px;
+}
+.introducao .gbox .boxp.box2 p{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
+.apresenRobo .cont .boxers12{
+    margin-top: 25px;
+}
+
+
+.hardware .imgComponentes .btnVoltar:active{
+    margin-right: 0px;
+}
+
+
+.construRobo .boxinter{
+    gap: 20px;
+}
+.construRobo .boxinter .videosConstru .lista{
+    width: 450px;
+}
+.construRobo .videosConstru .lista .video .boxvideo video{
+    width: 450px;
+}
+.construRobo .btnVoltar:active:active{
+    background-color: bisque;
+    margin-left: 0px;
+}
+
+
+.contato .conteudo{
+    width: 65%;
+}
+.contato .conteudo .titulo h1{
+    font-size: 20px;
+}
+.contato .conteudo form .grupo .campo3 textarea{
+    width: 15em;
+}
+.contato .conteudo form .grupo .campo1 input,.campo2 input{
+    width: 60%;
+}
+.contato .conteudo form .grupo .campo .btnContato{
+    padding: 10px 30px 10px 30px;
+}

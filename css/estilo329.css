@@ -1,0 +1,36 @@
+.conteudo .listas .as{
+    font-size: 12px;
+}
+
+.l {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.robocup {
+    margin-left: 5px;
+}
+.nos{
+    margin-right: 0;
+}
+
+
+.contato {
+    padding: 10px;
+}
+.contato .conteudo{
+    width: 100%;
+    
+}
+.contato .conteudo form .grupo .campo1 input, .campo2 input{
+    width: 80%;
+    font-size: 13px;
+}
+.contato .conteudo form .grupo .campo3 textarea {
+    width: 80%;
+}
+
+.nexterbc .boxesrbc .box4 .boxVideo1, .nexterbc .boxesnext .box4 .boxVideo2 {
+    margin-top: 20px;
+    width: 200px;
+    height: 180px;
+}

@@ -1,0 +1,145 @@
+nav{
+    border-radius: 0px 0px 40px 40px;
+}
+.conteudo .listas .logorobo img{
+    width: 40px;
+    height: 40px;
+}
+.conteudo .listas .as{
+    font-size: 16px;
+    margin-left: -10px;
+    padding: 5px;
+}
+.as:hover{
+    padding: 5px;
+}
+.robocup{
+    margin-left: 10px;
+}
+
+
+.hardware .boxp p,
+.construRobo .boxp p,
+.negocio .boxp p{
+    width: 65%;
+}
+
+
+
+
+
+.apresenRobo .slider{
+    margin-top: 55px;
+    width: 250px;
+}
+.apresenRobo .slider li:nth-child(1) label {
+    left: 60px;
+}
+.apresenRobo .slider li:nth-child(2) label {
+    left: 90px;
+}
+.apresenRobo .slider li:nth-child(3) label {
+    left: 120px;
+}
+.apresenRobo .slider li:nth-child(4) label {
+    left: 150px;
+}
+.apresenRobo .slider li:nth-child(5) label {
+    left: 180px;
+}
+.apresenRobo .cont{
+    gap: 4%;
+}
+.apresenRobo .boxers12{
+    width: 230px;
+}
+.apresenRobo .boxers12 p{
+    font-size: 14px;
+}
+
+#loc3{
+    margin-top: -20px;
+}
+
+
+/*--------*/
+.apresenRobo .boxp p,
+.hardware .boxp p,
+.construRobo .boxp p,
+.sistArma .boxesp p,
+.nexterbc .boxesrbc p,.boxesnext p,
+.apresenGrupo .boxp p,
+.negocio .boxp p{
+    font-size: 14px;
+}
+
+
+.construRobo .boxinter .videosConstru .lista{
+    width: 370px;
+}
+.construRobo .videosConstru .lista .video .boxvideo video{
+    width: 370px;
+}
+.construRobo .btnSeta{
+    margin-top: -30px;
+}
+.construRobo .videosConstru{
+    margin-bottom: 30px;
+}
+
+.sistArma .boxesp{
+    gap: 10px;
+}
+.sistArma .boxesp .boxp p{
+    width: 80%;
+}
+#loc5{
+    margin-top: -100px;
+}
+
+
+.contato .conteudo{
+    width: 80%;
+}
+
+
+.apresenRobo .cont{
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.apresenRobo .boxers12{
+    width: 100%;
+}
+.apresenRobo .boxers12 .boxp{
+    width: 100%;
+}
+.apresenRobo .boxers12 p{
+    width: 85%;
+}
+.apresenRobo .boxers12 .box2{
+    margin-top: 10px;
+}
+.apresenRobo .slider {
+    margin-top: 30px;
+    width: 230px;
+}
+.apresenRobo .slider li:nth-child(1) label {
+    left: 45px;
+}
+.apresenRobo .slider li:nth-child(2) label {
+    left: 75px;
+}
+.apresenRobo .slider li:nth-child(3) label {
+    left: 105px;
+}
+.apresenRobo .slider li:nth-child(4) label {
+    left: 135px;
+}
+.apresenRobo .slider li:nth-child(5) label {
+    left: 165px;
+}
+
+#loc3{
+    margin-top: 270px;
+}

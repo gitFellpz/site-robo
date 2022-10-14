@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/pagInici.css">
+        <link rel="stylesheet" href="css/estiloRBC.css">
+
+        <link rel="stylesheet" href="css/estilo1350.css" media="screen and (max-width:1350px)">
+        <link rel="stylesheet" href="css/estilo1038.css" media="screen and (max-width:1038px)">
+        <link rel="stylesheet" href="css/estilo890.css" media="screen and (max-width:890px)">
+        <link rel="stylesheet" href="css/estilo780.css" media="screen and (max-width:780px)">
+        <link rel="stylesheet" href="css/estilo690.css" media="screen and (max-width:690px)">
+        <link rel="stylesheet" href="css/estilo590.css" media="screen and (max-width:590px)">
+        <link rel="stylesheet" href="css/estilo520.css" media="screen and (max-width:520px)">
+        <link rel="stylesheet" href="css/estilo490.css" media="screen and (max-width:490px)">
+        <link rel="stylesheet" href="css/estilo450.css" media="screen and (max-width:450px)">
+        <link rel="stylesheet" href="css/estilo329.css" media="screen and (max-width:336px)">
+
+        <link rel="shortcut icon" href="img/Logo 5MT.png" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+        
+        <title>Blindado</title>
+
+    </head>
+    <body>
+
+        <!--ABA DE NAVEGAÇÃO ENTRE SETORES NA MESMA PÁGINA-->
+        <nav>
+            <article class="conteudo">
+                <ul class="listas">
+
+                    <!--LISTA ASSUNTO ROBO-->
+                    <div class="logorobo" >
+                        <img src="img/robozinho.png"  alt="robozinho" width="50px" height="50px">
+                    </div>
+                    <li class="robo l">
+                        <a href="#" class="as as1">Robô</a>
+
+                        <!--SUBLISTAS-->
+                        <ul class="sublistas">
+                            <div class="aux">
+                                <li class="lii">
+                                    <a href="#loc2">Apresentação: O blindado</a>
+                                </li>
+                                <li>
+                                    <a href="#loc3">Hardware/componentes</a>                                
+                                </li>
+                                <li>
+                                    <a href="#loc41">Construção "da blindagem"</a>
+                                </li>
+                                <li>
+                                    <a href="#loc42">Videos</a>
+                                </li>
+                                <li>
+                                    <a href="#loc5">Sistema de armas</a>
+                                </li>
+                                <li class="lif">
+                                    <a href="#loc8">Porque comprar nosso robô?</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>  
+
+                    <!--SETOR PARA ROBOCUP E NEXT-->
+                    <div class="logorobocup">
+                        <a> 
+                            <img src="img/robocup_logo.png" alt="robozinho" width="80px" height="50px"> 
+                        </a>
+                    </div>
+                    <li class="robocup l">
+                        <a href="#loc6" class="as as2">Robo cup e Next 2022</a>
+                    </li>
+                        
+                    <!--SETOR PARA 5MT-->
+                    <div class="logo5mt">
+                        <a> 
+                            <img src="img/Logo 5MT.png" alt="robozinho" width="75px" height="35px"> 
+                        </a>
+                    </div>
+
+                    <li class="nos l" >
+                        <a href="#loc7" class="as as3">Quem somos</a>
+                        <ul>
+                            <li><a href="#loc9">Seja nosso sócio</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+        </nav>
+
+        <main>
+            <!--PAGINA INICIAL-->
+            <article class="introducao" id="loc1">
+                <section class="gbox">
+                    <div class="boximg">
+                        <img src="img/robobox2.png" alt="">
+                    </div>
+
+                    <div class="boxp box1">
+                        <h1>Blindado</h1>
+                        <p>
+                            O robô que participa de competições mundiais. Foi inspirado em Ogum - orixá da guerra e do fogo - um guerreiro temido que lutava perseverantemente contra reinos ao seu redor. Blindado é um robô equipado com um armamento de médio porte capaz de vencer qualquer batalha.
+                        </p>
+                    </div>
+
+                    <div class="boxp box2">
+                        <p>
+                            Aqui você verá tudo sobre o futuro vencedor da RoboCup e do Next 2022. Aperte seu cinto e se prepare para essa apresentação INCRIVEL!
+                        </p>
+                    </div>
+
+                </section>
+            </article>
+    
+            <div class="setinha">
+                <img src="img/setinha.png" alt="">
+            </div>
+
+            <!--Apresentação robo - Storytelling -->
+            <div id="loc2"></div>
+
+            <article class="apresenRobo" id="apreRobo">
+                <div class="localizacao">
+                    <h1>Apresentação robô</h1>
+                </div>
+
+                <div class="cont">
+                    <div class="boxers12">
+                        <section class="boxp box1">
+                            <p>
+                                O “Blindado” foi feito em uma base de MDF de 0.5mm que comporta suas armas que foram feitas com cano PVC. Ademais, além do Arduino - cérebro do robô - nele estão todos os códigos para sua movimentação e ativação da arma que tem a movimentação realizada por motores. Os motores são de 330 e 150 RPM, os quais dão ao Blindado o máximo de desempenho.
+                                
+                            </p>
+                        </section>
+                        <section class="boxp box2">
+                            <p> 
+                                Ou seja, um robô mais ágil e eficaz o que é fundamental no resultado de uma luta.<br>Outrossim, o Blindado é equipado com rodas "monster's" que dão medo em qualquer oponente. Elas são resistentes a qualquer arma e são adaptáveis em qualquer tipo de terreno!                                                      </p>
+                        </section>
+                    </div>
+
+                    <!--Seção de imagens-->
+                    <section class="boximgs">
+                        <ul class="slider">
+                            <li>
+                                <input type="radio" id="slide1" name="slide" checked>
+                                <label for="slide1"></label>
+                                <img src="img/imgRobo/WhatsApp Image 2022-09-16 at 15.35.28.jpeg" alt="">
+                            </li>
+                            <li>
+                                <input type="radio" id="slide2" name="slide" checked>
+                                <label for="slide2"></label>
+                                <img src="img/imgRobo/WhatsApp Image 2022-09-16 at 15.35.30.jpeg" alt="">
+                            </li>
+                            <li>
+                                <input type="radio" id="slide3" name="slide" checked>
+                                <label for="slide3"></label>
+                                <img src="img/imgRobo/WhatsApp Image 2022-09-16 at 15.35.31.jpeg" alt="">
+                            </li>
+                            <li>
+                                <input type="radio" id="slide4" name="slide" checked>
+                                <label for="slide4"></label>
+                                <img src="img/imgRobo/WhatsApp Image 2022-09-16 at 15.35.32.jpeg" alt="">
+                            </li>
+                            <li>
+                                <input type="radio" id="slide5" name="slide" checked>
+                                <label for="slide5"></label>
+                                <img src="img/imgRobo/WhatsApp Image 2022-09-16 at 15.35.34.jpeg" alt="">
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+
+
+            <!--HARDWARE-->
+            <div id="loc3"></div>
+            <article class="hardware">
+                <div class="localizacao">
+                    <h1>Hardware</h1>
+                </div>
+
+                <div class="boxp">
+                    <p>Do que adianta ver esse magnifico robô e não saber como montar um semelhante, não é mesmo?</p>
+                </div>
+                <div class="boxp">
+                    <p class="p2">As imagens abaixo são dos componentes (hardware) necessários para a construção do seu robô!!</p>
+                </div>
+
+                <!--IMAGENS DE TODOS OS COMPONENTES-->
+                <section class="imgComponentes">
+
+                    <button id="btnVoltar" class="btnSeta btnVoltar">    
+                        <img src="img/imgComponentes/seta.png" alt="" width="50px" height="50px">
+                    </button>
+                    
+                    <ul class="lista">
+                        <li class="componente selecionado">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/arduinoUNO.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(1) Arduino UNO</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/chaveAlavanca.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(1) Chave Alavanca</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/jumpers.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(20) Jumpers</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg cled">
+                                <img src="img/imgComponentes/led.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(1) Led</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/moduloBT.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(1) Módulo Shield</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/moduloBTvDD.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(1) Módulo bluetooth</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/motores.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(4) Motores</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/soquetePilha.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(1) Soquete de 6 pilhas AA</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/suporteCano.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(4) Suportes de cano</p>
+                            </div>
+                        </li>
+
+                        <li class="componente">
+                            <div class="boximg">
+                                <img src="img/imgComponentes/rodaboba.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(2) Rodas bobas</p>
+                            </div>
+                        </li>
+                        <li class="componente">    
+                            <div class="boximg">
+                                <img src="img/imgComponentes/rodascaminhao.jpeg" alt="">
+                            </div>
+                            <div class="txt">
+                                <p>(2) Rodas</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <button id="btnAvancar" class="btnSeta btnAvancar">    
+                        <img src="img/imgComponentes/seta.png" alt="" width="50px" height="50px">
+                    </button>
+
+                </section>
+
+            </article>          
+
+
+            <!--SECAO DE VIDEOS DA CONSTRUCAO E DA MOVIMENTACAO DO ROBO-->
+            <div id="loc41"></div>
+            <article class="construRobo">
+                <div class="localizacao">
+                    <h1>Construção</h1>
+                </div>
+
+                <div class="boxp p1">
+                    <p>
+                        Veja nosso lindo "blindado" sendo construído!
+                    </p>
+                </div>
+                <div class="boxp p2">
+                    <p>
+                        Aqui já tínhamos feito toda a conexão de fios responsáveis pela movimentação do robô. Ele já estava funcionando e pronto para a próxima etapa: a instalação das armas!
+                    </p>
+                </div>
+                <div id="loc42"></div>
+                <div class="boxp p3">
+                    <p>
+                        O robô é conectado a um Shields Bluetooth que é ligado no Arduino, esse sistema realiza conexões com celulares Android, o controle é feito por um aplicativo que contém os comandos frente, traz, esquerda e direita.
+                    </p>
+                </div>
+                
+
+                <section class="boxinter">
+
+                    <button id="btnVoltar2" class="btnSeta btnVoltar">    
+                        <img src="img/imgComponentes/seta.png" alt="" width="50px" height="50px">
+                    </button>
+    
+                    <section class="videosConstru">
+                        <ul class="lista">
+                            <li class="video selecionado2">
+                                <div class="boxvideo video1">
+                                    <iframe class="video11" src="https://www.youtube.com/embed/jwCYvE6iS00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </li>     
+    
+                            <li class="video">
+                                <div class="boxvideo video2">
+                                    <iframe class="video22" src="https://www.youtube.com/embed/HTwiFXiBmhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </li>
+    
+                    </section>
+    
+                    <button id="btnAvancar2" class="btnSeta btnAvancar">    
+                        <img src="img/imgComponentes/seta.png" alt="" width="50px" height="50px">
+                    </button>
+                </section>
+            </article>
+
+
+            <!--SISTEMA DE ARMAS-->
+            <div id="loc5"></div>
+            <article class="sistArma">
+                <div class="localizacao">
+                    <h1>Sistema de armas</h1>
+                </div>
+
+                <section class="boxesp">
+                        <p>
+                            Agora vamos para a nossa querida destruidora de robôs.<br>O sistema de armas é inteiramente configurado dentro no Arduino. Lá permanece o tempo e velocidade da ativação das armas.
+                        </p>
+                        <p>
+                            Mas a grande surpresa é: O SENSOR<br>No robô, temos uma chave de fim de curso, que quando acionada, libera a passagem de energia para o Arduino, fazendo com que todo o script escrito do sistema de armas execute! 
+                        </p>
+                </section>
+
+            </article>
+
+
+
+            <!--NEXT E ROBOCUP-->
+            <div id="loc6"></div>
+            <article class="nexterbc">
+                <div class="localizacao">
+                    <h1>Robocup e Next FIAP</h1>
+                </div>
+
+                <div class="select">
+                    <button id="btn11"  class="btn1">
+                        <p>Robocup</p>
+                    </button>
+
+                    <button id="btn22" class="btn2">
+                        <p>Next 2022</p>
+                    </button>
+                </div>
+
+                <section class="boxesrbc">
+                    <div class="box1">
+                        <p>A Robocup é a competição mais antiga da FIAP. Alunos dos 1°s anos de Sistemas de Informação constroem robôs para participar de duelos, onde o principal objetivo é estourar o balão que o adversário carrega. Para isso, todas as máquinas possuem armas em seu corpo. Mas a competição também exige o funcionamento pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é considerado o vencedor.
+                        </p>
+                    </div>
+                    <div class="box2">
+                        <p>A Robô Cup é um projeto que tem como principal objetivo a integração das disciplinas de Sistemas de Informação e, consequentemente, o desenvolvimento de um robô com finalidade de participação de um campeonato eliminatório entre os robôs dos alunos que disputarão para estourar a bexiga inimiga e manter a sua bexiga intacta. O robô que manter a bexiga intacta em todas as batalhas, vencerá a Robô Cup. 
+                        Cada robô deverá ser feito por equipes de 5 alunos e ter uma base de carrinho com controle pelo módulo bluetooth conectado com o celular android.  
+                        </p>
+                    </div>
+                    <div class="box3">
+                        <p>
+                            As principais intenções desse projeto é fazer uma melhor análise e assimilação das matérias, desenvolver capacidades de eletrônica e mecânica e fazer uma integração de todas as matérias do ano. Ademais, servir como primeiro projeto da Startup que faremos até o final do curso.
+                        </p>
+                    </div>
+                    <div class="box4">
+                        <iframe class="boxVideo1" width="560" height="315" src="https://www.youtube.com/embed/VaZAKhNF4x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </section>
+
+                <section class="boxesnext">
+                    <div class="box1">
+                        <p>O NEXT é o Festival de Tecnologia e Inovação que reuniu, neste ano, mais de dois mil jovens talentos da FIAP apresentando suas melhores criações: drones, robôs, conteúdos para VR devices, aplicativos mobiles e muito mais. O NEXT FIAP Festival 2017 aconteceu na Casa das Caldeiras, em 21 de outubro – acompanhe esta experiência única:</p>
+                    </div>
+                    <div class="box2">
+                        <p>SPACE CUP 2017
+                            25 DE OUTUBRO DE 2017
+                            Em 7 de outubro, aconteceu a edição 2017 da Space Cup, no Parque Cemucam (Centro Municipal de Campismo) em Cotia. Os alunos do 3° ano dos cursos de Engenharia da Computação e de Engenharia de Produção e do 2° ano de Sistemas de Informação participaram do lançamento de 50 foguetes…</p>
+                    </div>
+                    <div class="box3">
+                        <p>BOSCH INNOVATION CHALLENGE
+                            24 DE OUTUBRO DE 2017
+                            Os alunos do 2º ano de Engenharia Mecatrônica pensaram na transformação de uma bomba de combustível da Bosch agregando novos valores ao produto, transformando-o em dispositivo conectado,1º Lugar – Hidro SmartAndré MonariCaique Aparecido Furlan de LimaCaue Monteiro Garcia PerezHernandes Fernando Eduardo Olea do RioJoão Guilherme Alves MassiOrlando Gomes Mariano2º Lugar…</p>
+                    </div>
+
+                    <div class="box4">
+                        <iframe class="boxVideo2" width="560" height="315" src="https://www.youtube.com/embed/MwBEJiPyLwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </article>
+
+
+            <!--APRESENTACAO DA 5MT-->
+            <div id="loc7"></div>
+            <article class="apresenGrupo">
+                <div class="localizacao">
+                    <h1>5MT - Quem somos?</h1>
+                </div>
+
+                <div class="boxp">
+                    <p>
+                        Somos uma empresa brasileira desenvolvida por universitários determinada a produzir tecnologia de ponta para projetos que envolvem robótica educacional. A 5MT está sempre muito antenada em novas tecnologias que aparecem no mercado, tendo como objetivo sempre inovar em nossos protótipos, contendo as tecnologias mais avançadas da atualidade, visando trazer o melhor e mais eficiente robô do mercado.
+                    </p>
+                </div>
+                <div class="boxp p2">
+                    <p>
+                        Buscamos várias inspirações. Quando decidimos desenvolver nossa empresa, notamos que nos se identificamos com a Tesla, onde é uma empresa que está sempre por dentro das principais novas tecnologias e busca sempre ter uma boa relação com seu cliente.
+                    </p>
+                </div>
+            </article>
+
+            <div id="loc8"></div>
+            <article class="negocio">
+                <div class="localizacao">
+                    <h1>Porque comprar nosso robô?</h1>
+                </div>
+
+                <div class="boxp">
+                    <p>
+                        Você é aquela pessoa fanática por tecnologia e robótica educacional? Então venha conhecer mais sobre nossos produtos de mais alta tecnologia! São robôs desenvolvidos com um baixo custo que não tem a necessidade de muita tecnologia envolvida. O nosso primeiro projeto ele tem como objetivo se movimentar via conexão remota e ativar uma arma de espinhos para realizar combates contra outros robôs! Esse produto ele se torna especial pois ele tem motores com altas taxas de velocidade e contem armas que fazem ativação via sensores que conseguem derrotar seus oponentes de batalha.<br><br> Veja abaixo uma foto do robô:
+                    </p>
+                </div>
+
+                <button id="btnSM">Saiba mais</button>
+
+                <div class="boxbtn">
+                    <img src="img/imgRobo/WhatsApp Image 2022-09-16 at 15.35.30.jpeg" alt="">
+                    <div class="boxp">
+                        <p>
+                            A 5MT tem como princípio, que o pós-venda é tão importante quanto a venda, estamos sempre trabalhando para manter a excelência no atendimento, na venda e no pós-venda. Um dos diferenciais de nossa empresa é que o cliente tem voz aqui na 5MT, o cliente tem total liberdade para personalizar todos os componentes do seu robô, desde cores da base, posição dos componentes e modelos de armas. Tudo para deixá-lo com a sua cara!
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+
+            <div id="loc9"></div>
+            <article class="socio">
+                <div class="localizacao">
+                    <h1>Seja nosso sócio!</h1>
+                </div>
+                <div class="boxp">
+                    <p>
+                        Se chegou até aqui, muito provavelmente você gostou da nossa Startup.
+                    </p>
+                    <p>
+                        O que acha de investir nos 5MT?
+                    </p>
+                </div>
+                
+                <button>
+                    <a href="indexSocio.html">Investir</a>
+                </button>
+            </article>
+
+
+
+
+
+            <article class="contato">
+                <div class="conteudo">
+                    <div class="titulo">
+                        <h1>Formulário para contato</h1>
+                    </div>
+                    <form>
+                        <fieldset class="grupo">
+                            <div class="campo campo1">
+                                <label for="nome"><strong>Nome completo <div class="ast">*</div> </strong></label>
+                                <input placeholder="Ex: Felipe Rocha" type="text" name="nome" id="nome" required>
+                                
+                            </div>
+                            <div class="campo campo2">
+                                <label for="email"><strong>E-mail <div class="ast">*</div> </strong></label>
+                                <input placeholder="Ex: rocha.felipe@gmail.com" type="text" name="email" id="email" required>
+                            </div>
+                            <div class="campo campo3">
+                                <br>
+                                <label for="mensagem"><strong>Mensagem <div class="ast">*</div> </strong></label>
+                                <textarea name="mensagem" id="mensagem" rows="4"  required></textarea>
+                            </div>
+
+                            <div class="campo" id="btnCont">
+                                <button class="btnContato" type="submit" onsubmit=""><strong>Concluído</strong></button>
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </article>
+        </main>
+
+
+        <!--RODAPE-->
+        <footer>
+            <div class="rodape2">
+                <div class=" boxi insta">
+                    <a href="https://instagram.com/5mt_mecanicatecnologia?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <img class="linsta" src="img/logoInstaIconeBranco.png" alt="Logo instagram">
+                    </a>
+                </div>
+                <div class="boxi ltt">
+                    <a href="https://twitter.com/5MT01769224?t=xozVEeqM3YC40AnquFPr8A&s=08" target="_blank">
+                        <img class="ltt" src="img/twitter-logoBranco.png" alt="Logo Twitter">
+                    </a>
+                </div>
+                <div class="boxi lyt">
+                    <a href="https://www.youtube.com/channel/UCkaproMBg6-HWWPpGgEzTDg" target="_blank">
+                        <img class="lyt" src="img/logoYoutubeBranco.png" alt=" Logo youtube">
+                    </a>
+                </div>
+            </div>
+
+            <div class="rodape">
+                <!--BOTAO PARA VOLTAR A PAGINA INICIAL-->
+                <div class="btnScroll">
+                    <a href="#loc1">Scroll para o topo </a>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="js/scriptRBC.js"></script>
+        <script src="js/scrptHard.js"></script>
+        <script src="js/link.js"></script>
+        <script src="js/negocio.js"></script>
+        <script src="js/contato.js"></script>
+
+    </body>
+</html>

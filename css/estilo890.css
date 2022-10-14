@@ -1,0 +1,116 @@
+.conteudo .listas .logorobo{
+    margin-left: -60px;
+}
+.conteudo .sublistas{
+    margin-top: 7px;
+}
+
+
+.introducao .gbox .boxp.box1{
+    margin-left: -90px;
+}
+.introducao .gbox .boxp.box1 h1{
+    font-size: 30px;
+}
+.introducao .gbox .boxp.box1 p{
+    font-size: 15px;
+}
+.introducao .gbox img{
+    width: 180px;
+    height: 200px;
+    margin-left: 15px;
+}
+.introducao .gbox .boxp.box2{
+    margin-right: 10px;
+}
+.introducao .gbox .boxp.box2 p{
+    font-size: 15px;
+}
+
+
+.apresenRobo .slider{
+    margin-top: 50px;
+}
+.apresenRobo .cont .boxers12{
+    margin-top: 40px;
+}
+.apresenRobo .boxp p{
+    font-size: 15px;
+}
+
+
+#loc3{
+    margin-top: 40px;
+}
+.hardware .boxp p{
+    font-size: 15px;
+}
+
+
+.construRobo .boxp p{
+    font-size: 15px;
+}
+
+
+.sistArma .boxesp p{
+    width: 30%;
+    font-size: 15px;
+}
+
+
+#loc6{
+    margin-top: -40px;
+}
+
+
+.nexterbc .boxesrbc p,.boxesnext p{
+    font-size: 15px;
+}
+
+
+.apresenGrupo .boxp p{
+    font-size: 15px;
+}
+
+
+.negocio .boxp p{
+    font-size: 15px;
+}
+
+
+
+.hardware .imgComponentes .btnSeta img{
+    width: 40px;
+    height: 40px;
+}
+.hardware .imgComponentes .btnSeta{
+    width: 50px;
+    height: 50px;
+}
+
+
+.construRobo .boxinter .btnSeta img{
+    width: 40px;
+    height: 40px;
+}
+.construRobo .boxinter .btnSeta{
+    width: 50px;
+    height: 50px;
+}
+.construRobo .boxinter .videosConstru .lista{
+    width: 500px;
+    height: 300px;
+}
+.construRobo .videosConstru .lista li .boxvideo video{
+    width: 500px;
+}
+
+
+
+.nexterbc .boxesrbc .box4 .boxVideo1,
+.nexterbc .boxesnext .box4 .boxVideo2{
+    margin-top: 20px;
+    width: 450px;
+    height: 280px;
+
+}

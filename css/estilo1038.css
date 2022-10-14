@@ -1,0 +1,28 @@
+
+.introducao .gbox .boxp.box1{
+    width: 35%;
+    margin-left: -104px;
+}
+.introducao .gbox .boxp.box1 h1{
+    padding: 1px;
+}
+.introducao .gbox .boxp.box1 p{
+    width: 80%;
+}
+.introducao .gbox img{
+    width: 230px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+
+footer .rodape2 img{
+    width: 45px;
+    height: 45px;
+}
+footer .rodape2 .ltt{
+    width: 55px;
+}
+footer .rodape2 .lyt{
+    width: 55px;
+}
